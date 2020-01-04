@@ -4,7 +4,9 @@
   \usepackage{amssymb}
   \usepackage{amsfonts}
   \usepackage{ifpdf}
-
+  \usepackage[T1]{fontenc}
+  \renewcommand*\rmdefault{augie}
+  
   \definecolor{PI_Blue}{HTML}{0096DC}
   \definecolor{PI_Dark_Blue}{HTML}{006996}
   \definecolor{PI_Black}{HTML}{929292}
@@ -21,9 +23,12 @@
 
   \thispagestyle{empty}
   \begin{document}
-   \color{PI_Dark_Gray}
-   \[
-    \sqrt{ \mathrm{\color{PI_Black}Phys}\mathrm{\color{PI_Red}-Ing}\mathrm{\color{PI_Gold}.de}}
-   \]
+
+  {\color{PI_Black}Phys}{\color{PI_Red}-Ing} {\color{PI_Gold}.de}
+
+  %  \color{PI_Dark_Gray}
+  %  \[
+  %   \sqrt{ \mathrm{\color{PI_Black}Phys}\mathrm{\color{PI_Red}-Ing}\mathrm{\color{PI_Gold}.de}}
+  %  \]
 \end{document}
 
