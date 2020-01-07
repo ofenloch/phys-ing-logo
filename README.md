@@ -18,5 +18,14 @@ The logo looks like this (100x300px):
 
 And this is the favicon (32x32px):  ![favicon 32x32px][favicon]
 
+
+The logo in square format (300x300px): 
+
+![logo 300x300px](./phys-ing.de-logo-300x300px.png)
+
+On GitHub we us the *phys-ing.de-logo-300x300px.png* as logo.
+
+
 [logo]: ./phys-ing.de-logo-100x300px.png
 [favicon]: ./phys-ing.de-favicon-32x32px.png
+
