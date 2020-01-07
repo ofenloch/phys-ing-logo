@@ -4,13 +4,14 @@
   \usepackage{amssymb}
   \usepackage{amsfonts}
   \usepackage{ifpdf}
+  \usepackage{soul}
   \usepackage[T1]{fontenc}
   \renewcommand*\rmdefault{augie}
   
   \definecolor{PI_Blue}{HTML}{0096DC}
   \definecolor{PI_Dark_Blue}{HTML}{006996}
   \definecolor{PI_Black}{HTML}{929292}
-  \definecolor{PI_Light_Gray}{HTML}{E9E9E9}
+  \definecolor{PI_Dark_Gray}{HTML}{E9E9E9}
   \definecolor{PI_Dark_Gray}{HTML}{575757}
   \definecolor{PI_Green}{HTML}{78B928}
   \definecolor{PI_Yellow}{HTML}{FFD700}
@@ -27,12 +28,16 @@
   %% ex	is roughly the height of an 'x' in the current font
   %% em	is roughly the width of an 'M' (uppercase) in the current font
 
-  \newcommand*{\mystrut}{\rule[-0.7\baselineskip]{0.001ex}{2\baselineskip}}
+  \newcommand*{\mystrut}{\rule[-0.7\baselineskip]{0.15ex}{2\baselineskip}}
+  
+  \setul{0ex}{0.05ex}
+  \setulcolor{PI_Dark_Gray}
 
-  \makebox[10em]{ 
-    {\color{PI_Black}Phys}{\color{PI_Red} \mystrut -Ing}{\color{PI_Gold}.de}
+  \ul{
+    \mbox{
+      {\color{PI_Dark_Gray}\mystrut} {\color{PI_Black}Phys}{\color{PI_Red}-Ing}{\color{PI_Gold}.de}
+    }
   }
-
   %  \color{PI_Dark_Gray}
   %  \[
   %   \sqrt{ \mathrm{\color{PI_Black}Phys}\mathrm{\color{PI_Red}-Ing}\mathrm{\color{PI_Gold}.de}}
