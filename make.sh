@@ -22,8 +22,11 @@ for f in phys-ing*.tex ; do
   inkscape -z -e ${name}-50x150px.png -h 50 -w 150 ${name}.svg;
   inkscape -z -e ${name}-100x100px.png -h 100 -w 100 ${name}.svg;
   inkscape -z -e ${name}-100x300px.png -h 100 -w 300 ${name}.svg;
+  inkscape -z -e ${name}-300x300px.png -h 300 -w 300 ${name}.svg;
   inkscape -z -e ${name}-200x600px.png -h 200 -w 600 ${name}.svg;
   inkscape -z -e ${name}-300x900px.png -h 300 -w 900 ${name}.svg;
+  inkscape -z -e ${name}-500x500px.png -h 500 -w 500 ${name}.svg;
   inkscape -z -e ${name}-500x1500px.png -h 500 -w 1500 ${name}.svg;
+  
 done;
 
