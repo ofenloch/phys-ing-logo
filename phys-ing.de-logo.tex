@@ -24,7 +24,14 @@
   \thispagestyle{empty}
   \begin{document}
 
-  {\color{PI_Black}Phys}{\color{PI_Red}-Ing} {\color{PI_Gold}.de}
+  %% ex	is roughly the height of an 'x' in the current font
+  %% em	is roughly the width of an 'M' (uppercase) in the current font
+
+  \newcommand*{\mystrut}{\rule[-0.7\baselineskip]{0.001ex}{2\baselineskip}}
+
+  \makebox[10em]{ 
+    {\color{PI_Black}Phys}{\color{PI_Red} \mystrut -Ing}{\color{PI_Gold}.de}
+  }
 
   %  \color{PI_Dark_Gray}
   %  \[
